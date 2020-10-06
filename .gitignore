@@ -1,0 +1,26 @@
+# Files and directories created by pub
+.dart_tool/
+.packages
+.idea/
+.gradle/
+.config.json
+.pid
+gradle/
+lib/test/
+gradlew
+gradlew.bat
+# Omit commiting pubspec.lock for library packages:
+# https://dart.dev/guides/libraries/private-files#pubspeclock
+pubspec.lock
+
+# Conventional directory for build outputs
+build/
+
+# Directory created by dartdoc
+doc/api/
+
+#.pro/ at 2020-10-06 11:56:10
+.pro/
+
+#.db at 2020-10-06 16:38:57
+.db
