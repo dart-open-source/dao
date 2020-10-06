@@ -21,7 +21,7 @@ void main() async {
   }
   var count = await collection.count();
   print('count:$count');
-  var info = await collection.findOne('id', id);
+  var info = await collection.findOne({'id':id});
   print('info:$info');
 
   await Dao.close();

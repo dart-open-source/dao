@@ -1,1 +1,1 @@
-export 'dao_base.dart';
+export 'src/dao_base.dart';

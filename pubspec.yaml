@@ -1,6 +1,6 @@
 name: dao
 description: A starting point for Dart Process Api package, for Using commondline app to Easyly access start stop restart commands, see demo or examples.
-version: 0.0.1
+version: 0.0.4
 homepage: https://gitee.com/darto/dao
 
 ## pub publish --server=https://pub.dartlang.org
@@ -9,7 +9,6 @@ environment:
   sdk: '>=2.8.1 <3.0.0'
 
 dependencies:
+  convert: ^2.1.1
   mongo_dart: ^0.4.2
-  alm:
-#    git: https://gitee.com/darto/alm.git
-    path: ../alm
+  alm: ^0.0.6
